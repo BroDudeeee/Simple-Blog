@@ -6,7 +6,7 @@ const Nav = ({ search, setSearch }) => {
       <input 
         type="text"
         value={search}
-        onChange={(e)=>setSearch(e.target.value)}
+        onChange={(e) => setSearch(e.target.value)}
         placeholder="Search posts"
         className="flex-1 outline-none text-gray-600 p-2 items-center bg-white border-y border-black"
       />
